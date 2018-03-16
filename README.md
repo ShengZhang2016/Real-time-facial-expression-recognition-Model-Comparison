@@ -52,7 +52,7 @@ python webcam_detection.py
 ```
 If everything went well, our system should start detecting users' expression and show the result on screen. Also, there will be a history log on your terminal. If you will. you could save those results for later use by typing this command:
 ```
-python webcam_detection.py | log.txt
+python webcam_detection.py > log.txt
 ```
 which coould save those result to log.txt file.
 
